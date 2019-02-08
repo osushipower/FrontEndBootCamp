@@ -1,0 +1,51 @@
+/* Just a random comment */ 
+
+/* The type (element) selector */
+div {
+    background-color: antiquewhite;
+    background-image: url(/img/img_1.jpg);
+    /* Parallax Effect */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: brown;
+    padding: 5px;
+    margin: 5px;
+    
+}
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    text-indent: 50px;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: line-through;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* The class Selector */
+.lead {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+/* ID selector */
+#intro {
+    background-color: tomato;
+    font-size: 2em;
+}
+
+/* The Descendent Selector */
+#intro span {
+    background-color: yellow;
+    color: black;
+}
